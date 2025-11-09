@@ -1,0 +1,149 @@
+*{
+font-family: Inter, sans-serif;
+}
+
+
+h1, h2, h3, .momo-trust-display-regular {
+  font-family: "Momo Trust Display", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  
+}
+
+.btn-custom{
+    padding: 15px 30px;
+    background: #000;
+    color: white;
+    font-size: 18px;
+    border-radius: 15px;
+}
+
+.btn-custom:hover{
+    border: 2px solid yellow;
+}
+
+.logo{
+    height: 50px;
+    width: 50px;
+}
+
+.img-res{
+    width: 80%;
+}
+
+
+.bgimg{
+    background-image: linear-gradient(rgba(155, 138, 138, 0.623), rgba(204, 201, 201, 0.726)), url(https://picsum.photos/2000);
+}
+
+
+.bgcolor{
+    background-color:  rgb(30, 39, 119) ;
+    color: whitesmoke;
+}
+
+.bgcolor:hover{
+    background-color: black;
+}
+
+nav li{
+    list-style-type: none;
+}
+
+nav a{
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 10px;
+}
+
+.flex-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.flex-link{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+article{
+    
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+    text-align: justify;
+
+}
+
+aside{
+    background-color: rgb(238, 238, 34);
+   
+    
+}
+
+.flex{
+
+    height: 60vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.flex-custom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    height: 85%;
+
+    
+}
+
+
+
+footer{
+    background: #000;
+    color: white;
+    height: 25vh;
+}
+
+
+
+
+
+@media screen and (max-width: 768px) {
+
+    
+
+    .flex{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+    }
+
+    .article{
+        width: 30%;
+        height: 30%;
+    }
+
+    .page-big{
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+
+    }
+
+    aside{
+        height: 100%;
+    }
+
+}
